@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language id="yajcoexamplesmlmodel" _name="YajCo yajco.example.sml.model" version="2.0" _section="Source">
+  <metadata>
+        <property name="mimetypes">plain/text</property>
+            <property name="globs">*.st</property>
+                  <property name="line-comment-start">#</property>
+                      <property name="block-comment-start">/\*</property>
+      <property name="block-comment-end">\*/</property>
+          </metadata>
+  
+  <styles>
+    <style id="comment" _name="comment" map-to="def:comment"/>
+    <style id="keyword" _name="keyword" map-to="def:keyword"/>
+  </styles>
+  <definitions>
+    <context id="yajcoexamplesmlmodel" class="no-spell-check">
+      <include>
+                <context id="keyword" style-ref="keyword">
+                      <keyword>state</keyword>
+                      <keyword>trans</keyword>
+                   </context>
+                                    <context id="line-comment" style-ref="comment" end-at-line-end="true" class="comment" class-disabled="no-spell-check">
+       	   <start>#</start>
+      		 <include>
+        	   <context ref="def:in-line-comment"/>
+      		 </include>
+    	 </context>
+                                             <context id="block-comment" style-ref="comment" class="comment" class-disabled="no-spell-check">
+      	   <start>/\*</start>
+      	   <end>\*/</end>
+      	   <include>
+        	 <context ref="def:in-comment"/>
+      	   </include>
+    	 </context>
+                         </include>
+     </context>
+   </definitions>
+</language>

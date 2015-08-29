@@ -1,0 +1,886 @@
+2014-06-04 16:28:17,001 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,002 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,002 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,002 - *******************************************************************
+2014-06-04 16:28:17,002 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,002 - RuntimeInstance initializing.
+2014-06-04 16:28:17,002 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,002 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,002 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,002 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,003 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,006 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,011 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,012 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,012 - Do unicode file recognition:  false
+2014-06-04 16:28:17,012 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,012 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,026 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,026 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,029 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,031 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,032 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,034 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,035 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,037 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,039 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,041 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,043 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,094 - Created '20' parsers.
+2014-06-04 16:28:17,103 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,103 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,103 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,104 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,104 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,104 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,104 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,104 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,104 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,626 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,626 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,626 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,626 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,626 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,626 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,626 - *******************************************************************
+2014-06-04 16:28:17,626 - *******************************************************************
+2014-06-04 16:28:17,626 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,626 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,626 - RuntimeInstance initializing.
+2014-06-04 16:28:17,626 - RuntimeInstance initializing.
+2014-06-04 16:28:17,626 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,626 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,626 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,626 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,626 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,626 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,627 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,627 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,627 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,627 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,627 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,627 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,628 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,628 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,628 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,628 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,628 - Do unicode file recognition:  false
+2014-06-04 16:28:17,628 - Do unicode file recognition:  false
+2014-06-04 16:28:17,628 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,628 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,628 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,628 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,629 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,629 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,629 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,629 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,630 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,630 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,631 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,631 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,631 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,631 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,632 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,632 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,632 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,632 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,633 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,633 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,633 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,633 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,634 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,634 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,634 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,634 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,636 - Created '20' parsers.
+2014-06-04 16:28:17,636 - Created '20' parsers.
+2014-06-04 16:28:17,637 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,637 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,637 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,637 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,637 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,637 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,637 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,637 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,637 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,637 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,637 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,637 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,637 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,637 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,637 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,637 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,637 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,637 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,663 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:28:17,663 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:28:17,698 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,698 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,698 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:28:17,698 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,698 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,698 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:28:17,699 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,699 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,699 - Initializing Velocity, Calling init()...
+2014-06-04 16:28:17,699 - *******************************************************************
+2014-06-04 16:28:17,699 - *******************************************************************
+2014-06-04 16:28:17,699 - *******************************************************************
+2014-06-04 16:28:17,699 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,699 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,699 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:28:17,699 - RuntimeInstance initializing.
+2014-06-04 16:28:17,699 - RuntimeInstance initializing.
+2014-06-04 16:28:17,699 - RuntimeInstance initializing.
+2014-06-04 16:28:17,699 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,699 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,699 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:28:17,699 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,699 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,699 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,699 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,699 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,699 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,699 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:28:17,700 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,700 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,700 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:28:17,701 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,701 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,701 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization starting.
+2014-06-04 16:28:17,701 - Do unicode file recognition:  false
+2014-06-04 16:28:17,701 - Do unicode file recognition:  false
+2014-06-04 16:28:17,701 - Do unicode file recognition:  false
+2014-06-04 16:28:17,701 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,701 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,701 - FileResourceLoader : adding path '.'
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,701 - FileResourceLoader : initialization complete.
+2014-06-04 16:28:17,702 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,702 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,702 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:28:17,702 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,702 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,702 - Default ResourceManager initialization complete.
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,703 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:28:17,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:28:17,710 - Created '20' parsers.
+2014-06-04 16:28:17,710 - Created '20' parsers.
+2014-06-04 16:28:17,710 - Created '20' parsers.
+2014-06-04 16:28:17,711 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,711 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,711 - Velocimacro : initialization starting.
+2014-06-04 16:28:17,711 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,711 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,711 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:28:17,711 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,711 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,711 - Velocimacro : Default library not found.
+2014-06-04 16:28:17,711 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,711 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,711 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,712 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:28:17,712 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,712 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,712 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:28:17,712 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,712 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,712 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:28:17,712 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,712 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,712 - RuntimeInstance successfully initialized.
+2014-06-04 16:28:17,739 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:28:17,739 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:28:17,739 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:28:17,739 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:28:17,739 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:28:17,739 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:28:17,743 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,743 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,743 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,744 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,744 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,744 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,855 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,855 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,856 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,856 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,861 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,861 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,863 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,863 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,865 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,865 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,865 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,865 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,866 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,866 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,867 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,869 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,869 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,869 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,869 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,870 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,870 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,870 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,870 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,871 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,871 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,871 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,871 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,872 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:28:17,873 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:28:17,873 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,312 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,313 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,313 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,313 - *******************************************************************
+2014-06-04 16:29:46,313 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,313 - RuntimeInstance initializing.
+2014-06-04 16:29:46,313 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,313 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,313 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,313 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,313 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,316 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,322 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,323 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,323 - Do unicode file recognition:  false
+2014-06-04 16:29:46,323 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,323 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,344 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,344 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,347 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,349 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,350 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,352 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,353 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,355 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,357 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,361 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,363 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,403 - Created '20' parsers.
+2014-06-04 16:29:46,413 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,413 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,414 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,414 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,414 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,414 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,414 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,414 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,414 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,700 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,700 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,700 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,700 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,700 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,700 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,700 - *******************************************************************
+2014-06-04 16:29:46,700 - *******************************************************************
+2014-06-04 16:29:46,700 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,700 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,700 - RuntimeInstance initializing.
+2014-06-04 16:29:46,700 - RuntimeInstance initializing.
+2014-06-04 16:29:46,700 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,700 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,700 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,700 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,700 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,700 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,700 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,700 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,700 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,700 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,701 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,701 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,702 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,702 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,702 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,702 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,702 - Do unicode file recognition:  false
+2014-06-04 16:29:46,702 - Do unicode file recognition:  false
+2014-06-04 16:29:46,702 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,702 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,702 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,702 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,703 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,703 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,703 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,703 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,704 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,705 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,706 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,707 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,708 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,708 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,710 - Created '20' parsers.
+2014-06-04 16:29:46,710 - Created '20' parsers.
+2014-06-04 16:29:46,710 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,710 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,710 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,710 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,711 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,711 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,711 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,711 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,711 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,711 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,711 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,711 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,711 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,711 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,711 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,711 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,711 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,711 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,742 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:29:46,742 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:29:46,776 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,776 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,776 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:29:46,776 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,776 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,776 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:29:46,776 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,776 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,776 - Initializing Velocity, Calling init()...
+2014-06-04 16:29:46,776 - *******************************************************************
+2014-06-04 16:29:46,776 - *******************************************************************
+2014-06-04 16:29:46,776 - *******************************************************************
+2014-06-04 16:29:46,776 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,776 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,776 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:29:46,776 - RuntimeInstance initializing.
+2014-06-04 16:29:46,776 - RuntimeInstance initializing.
+2014-06-04 16:29:46,776 - RuntimeInstance initializing.
+2014-06-04 16:29:46,776 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,776 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,776 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:29:46,776 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,776 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,776 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,776 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,776 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,776 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,776 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:29:46,777 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,777 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,777 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:29:46,778 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,778 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,778 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization starting.
+2014-06-04 16:29:46,778 - Do unicode file recognition:  false
+2014-06-04 16:29:46,778 - Do unicode file recognition:  false
+2014-06-04 16:29:46,778 - Do unicode file recognition:  false
+2014-06-04 16:29:46,778 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,778 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,778 - FileResourceLoader : adding path '.'
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,778 - FileResourceLoader : initialization complete.
+2014-06-04 16:29:46,779 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,779 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,779 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:29:46,779 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,779 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,779 - Default ResourceManager initialization complete.
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,780 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,781 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,782 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,783 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:29:46,785 - Created '20' parsers.
+2014-06-04 16:29:46,785 - Created '20' parsers.
+2014-06-04 16:29:46,785 - Created '20' parsers.
+2014-06-04 16:29:46,785 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,785 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,785 - Velocimacro : initialization starting.
+2014-06-04 16:29:46,785 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,785 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,785 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:29:46,785 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,785 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,785 - Velocimacro : Default library not found.
+2014-06-04 16:29:46,785 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,785 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,785 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,785 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:29:46,785 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,785 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,785 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:29:46,785 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,785 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,785 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:29:46,785 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,785 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,785 - RuntimeInstance successfully initialized.
+2014-06-04 16:29:46,813 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:29:46,813 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:29:46,813 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:29:46,814 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:29:46,814 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:29:46,814 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:29:46,818 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,818 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,818 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,820 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,820 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,820 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,826 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,826 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,826 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,827 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,827 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,827 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,828 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,828 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,828 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,830 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,830 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,830 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,832 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,833 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,834 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,834 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,834 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,835 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,835 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,835 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,836 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,837 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,838 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:29:46,839 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:06,999 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:06,999 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:06,999 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:06,999 - *******************************************************************
+2014-06-04 16:34:06,999 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:06,999 - RuntimeInstance initializing.
+2014-06-04 16:34:06,999 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:06,999 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:06,999 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:06,999 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:06,999 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,002 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,008 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,009 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,009 - Do unicode file recognition:  false
+2014-06-04 16:34:07,009 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,009 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,026 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,026 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,029 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,031 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,032 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,034 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,035 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,036 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,038 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,039 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,041 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,089 - Created '20' parsers.
+2014-06-04 16:34:07,097 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,097 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,097 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,098 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,098 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,098 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,098 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,098 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,098 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,298 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:07,298 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:07,298 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:07,298 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:07,298 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:07,298 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:07,298 - *******************************************************************
+2014-06-04 16:34:07,298 - *******************************************************************
+2014-06-04 16:34:07,299 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:07,299 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:07,299 - RuntimeInstance initializing.
+2014-06-04 16:34:07,299 - RuntimeInstance initializing.
+2014-06-04 16:34:07,299 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:07,299 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:07,299 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:07,299 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:07,299 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:07,299 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:07,299 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,299 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,299 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,299 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,299 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,299 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,300 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,300 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,300 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,300 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,300 - Do unicode file recognition:  false
+2014-06-04 16:34:07,300 - Do unicode file recognition:  false
+2014-06-04 16:34:07,300 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,300 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,300 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,300 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,300 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,300 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,300 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,300 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,301 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,302 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,302 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,302 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,302 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,303 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,303 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,303 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,303 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,304 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,305 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,305 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,308 - Created '20' parsers.
+2014-06-04 16:34:07,308 - Created '20' parsers.
+2014-06-04 16:34:07,308 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,308 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,308 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,308 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,309 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,309 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,309 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,309 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,309 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,309 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,309 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,309 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,309 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,309 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,309 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,309 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,309 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,309 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,330 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:34:07,330 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:34:07,420 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:07,420 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:07,420 - Log4JLogChute initialized using file 'velocity.log'
+2014-06-04 16:34:07,420 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:07,420 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:07,420 - The version of log4j being used does not support the "trace" level.
+2014-06-04 16:34:07,420 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:07,420 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:07,420 - Initializing Velocity, Calling init()...
+2014-06-04 16:34:07,420 - *******************************************************************
+2014-06-04 16:34:07,420 - *******************************************************************
+2014-06-04 16:34:07,420 - *******************************************************************
+2014-06-04 16:34:07,420 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:07,420 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:07,420 - Starting Apache Velocity v1.7 (compiled: 2010-11-19 12:14:37)
+2014-06-04 16:34:07,420 - RuntimeInstance initializing.
+2014-06-04 16:34:07,420 - RuntimeInstance initializing.
+2014-06-04 16:34:07,420 - RuntimeInstance initializing.
+2014-06-04 16:34:07,420 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:07,420 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:07,420 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2014-06-04 16:34:07,420 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:07,420 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:07,420 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2014-06-04 16:34:07,421 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:07,421 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:07,421 - Target log system for org.apache.velocity.runtime.log.AvalonLogChute is not available (java.lang.NoClassDefFoundError: org/apache/log/format/Formatter).  Falling back to next log system...
+2014-06-04 16:34:07,421 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2014-06-04 16:34:07,421 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,421 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,421 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2014-06-04 16:34:07,422 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,422 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,422 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2014-06-04 16:34:07,422 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,422 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,422 - FileResourceLoader : initialization starting.
+2014-06-04 16:34:07,423 - Do unicode file recognition:  false
+2014-06-04 16:34:07,423 - Do unicode file recognition:  false
+2014-06-04 16:34:07,423 - Do unicode file recognition:  false
+2014-06-04 16:34:07,423 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,423 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,423 - FileResourceLoader : adding path '.'
+2014-06-04 16:34:07,423 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,423 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,423 - FileResourceLoader : initialization complete.
+2014-06-04 16:34:07,423 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,423 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,423 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl) with class java.util.Collections$SynchronizedMap cache map.
+2014-06-04 16:34:07,423 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,423 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,423 - Default ResourceManager initialization complete.
+2014-06-04 16:34:07,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,424 - Loaded System Directive: org.apache.velocity.runtime.directive.Stop
+2014-06-04 16:34:07,425 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,425 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,425 - Loaded System Directive: org.apache.velocity.runtime.directive.Define
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Break
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,426 - Loaded System Directive: org.apache.velocity.runtime.directive.Evaluate
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,428 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2014-06-04 16:34:07,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,429 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2014-06-04 16:34:07,430 - Created '20' parsers.
+2014-06-04 16:34:07,430 - Created '20' parsers.
+2014-06-04 16:34:07,430 - Created '20' parsers.
+2014-06-04 16:34:07,431 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,431 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,431 - Velocimacro : initialization starting.
+2014-06-04 16:34:07,432 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,432 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,432 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2014-06-04 16:34:07,432 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,432 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,432 - Velocimacro : Default library not found.
+2014-06-04 16:34:07,432 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,432 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,432 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,432 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2014-06-04 16:34:07,432 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,432 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,432 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2014-06-04 16:34:07,432 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,432 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,432 - Velocimacro : Velocimacro : initialization complete.
+2014-06-04 16:34:07,432 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,432 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,432 - RuntimeInstance successfully initialized.
+2014-06-04 16:34:07,469 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:34:07,469 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:34:07,469 - Velocimacro : added VM processNotationPart: source=
+2014-06-04 16:34:07,469 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:34:07,469 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:34:07,469 - Velocimacro : added VM writeSpecifiedType: source=
+2014-06-04 16:34:07,473 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,473 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,473 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,475 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,475 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,475 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,481 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,481 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,481 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,482 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,482 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,482 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,483 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,483 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,483 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,485 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,485 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,485 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,487 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,488 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,488 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,488 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,489 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,490 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,490 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,490 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,492 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,493 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,494 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,494 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,494 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 40, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,495 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 56, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]
+2014-06-04 16:34:07,496 - RHS of #set statement is null. Context will not be modified. <unknown template>[line 324, column 1]

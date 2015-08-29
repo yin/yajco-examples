@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language
+  name="YajCo *.st"
+  version="1.00"
+  kateversion="2.4"
+  section="Sources"
+>
+  <highlighting>
+        <list name="keywords">
+            <item>trans</item>
+            <item>state</item>
+          </list>
+        
+    <contexts>
+      <context attribute="Normal Text" lineEndContext="#pop" name="Normal Text">
+        <keyword attribute="Keyword" context="#stay" String="keywords"/>
+                                              </context>
+    </contexts>
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal"/>
+      <itemData name="Keyword" defStyleNum="dsKeyword"/>
+      <itemData name="Comment" defStyleNum="dsComment"/>
+    </itemDatas>
+        <general>
+      <comments>
+                      </comments>
+    </general>
+      </highlighting>
+</language>

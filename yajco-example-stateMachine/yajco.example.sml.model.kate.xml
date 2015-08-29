@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language
+  name="YajCo yajco.example.sml.model"
+  version="1.00"
+  kateversion="2.4"
+  section="Sources"
+  extensions="*.st"
+  mimetype="plain/text"
+>
+  <highlighting>
+        <list name="keywords">
+            <item>trans</item>
+            <item>state</item>
+          </list>
+        
+    <contexts>
+      <context attribute="Normal Text" lineEndContext="#pop" name="Normal Text">
+        <keyword attribute="Keyword" context="#stay" String="keywords"/>
+                        <RegExpr attribute="Comment" context="Line Comment" String="#" />
+                        <RegExpr attribute="Comment" context="Block Comment" String="/\*" beginRegion="comment" />
+              </context>
+            <context <RegExpr attribute="Comment" name="Line Comment" lineEndContext="#pop" />
+        <LineContinue attribute="Comment" context="#stay"/>
+      </context>
+                  <context attribute="Comment" name="BlockComment" lineEndContext="#stay" />
+	    	    <RegExpr attribute="Comment"  context="#pop" String="\*/" endRegion="comment" />
+              </context>
+          </contexts>
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal" spellChecking="false" />
+      <itemData name="Keyword" defStyleNum="dsKeyword" spellChecking="false" />
+      <itemData name="Operator" defStyleNum="dsString" spellChecking="false" />
+      <itemData name="Comment" defStyleNum="dsComment" spellChecking="true" />
+    </itemDatas>
+        <general>
+      <comments>
+                <comment name="singleLine" start="#"/>
+                        <comment name="multiLine" start="/\*" end="\*/"/>
+              </comments>
+    </general>
+      </highlighting>
+</language>

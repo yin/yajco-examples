@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "language.dtd">
+<language
+  name="YajCo yajco.example.extMathExpr.model"
+  version="1.00"
+  kateversion="2.4"
+  section="Sources"
+  extensions="*.eme"
+  mimetype="plain/text"
+>
+  <highlighting>
+        
+    <contexts>
+      <context attribute="Normal Text" lineEndContext="#pop" name="Normal Text">
+        <keyword attribute="Keyword" context="#stay" String="keywords"/>
+                <RegExpr attribute="Operator" context="#stay" String="-" />
+                <RegExpr attribute="Operator" context="#stay" String="/" />
+                <RegExpr attribute="Operator" context="#stay" String="\*" />
+                <RegExpr attribute="Operator" context="#stay" String="%" />
+                <RegExpr attribute="Operator" context="#stay" String="\+" />
+                <RegExpr attribute="Operator" context="#stay" String="\^" />
+                <RegExpr attribute="Operator" context="#stay" String="!" />
+                <RegExpr attribute="Operator" context="#stay" String="-" />
+                <RegExpr attribute="Operator" context="#stay" String="\+" />
+                <RegExpr attribute="Operator" context="#stay" String="\?" />
+                <RegExpr attribute="Operator" context="#stay" String=":" />
+                              </context>
+                </contexts>
+    <itemDatas>
+      <itemData name="Normal Text" defStyleNum="dsNormal" spellChecking="false" />
+      <itemData name="Keyword" defStyleNum="dsKeyword" spellChecking="false" />
+      <itemData name="Operator" defStyleNum="dsString" spellChecking="false" />
+      <itemData name="Comment" defStyleNum="dsComment" spellChecking="true" />
+    </itemDatas>
+      </highlighting>
+</language>
